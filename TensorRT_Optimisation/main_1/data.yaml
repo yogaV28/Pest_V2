@@ -1,0 +1,13 @@
+train: c:\Users\yogav\Documents\Project\Yoga_project\nvidia project\PEct_tensorrt\train\images
+val: C:\Users\yogav\Documents\Project\Yoga_project\nvidia project\PEct_tensorrt\valid\images
+test: C:\Users\yogav\Documents\Project\Yoga_project\nvidia project\PEct_tensorrt\test\images
+
+nc: 5
+names: ['Asian-Lady-beetle', 'Ladybug', 'Mealy-bug', 'Pyrilla-perpusilla', 'Stink bug']
+
+roboflow:
+  workspace: pest-dectetion
+  project: pest_id
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pest-dectetion/pest_id/dataset/1
